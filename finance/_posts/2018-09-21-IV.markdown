@@ -1,0 +1,105 @@
+---
+layout: post
+title:  "Implied Volatility"
+date:   2018-09-21 20:50:46 -0400
+categories: impliedVolatility
+---
+<h2>Definition</h2>
+
+{% highlight ruby %}
+When IV increase, risk on the asset increase. 
+The Option becomes more valuable.
+
+When IV decrease, risk on the asset, decrease. 
+The option becomes less valuable.
+{% endhighlight %}
+
+
+In simple terms, IV is determined by the current price of option contracts on a particular stock or future. It is represented as a percentage that indicates the annualized expected one standard deviation range for the stock based on the option prices. For example, an IV of 25% on a $200 stock would represent a one standard deviation range of $50 over the next year.
+
+ One standard deviation is a measurement that encompasses approximately 68.2% of outcomes.
+
+ When it comes to IV, one standard deviation means that there is approximately a 68% probability of a stock settling within the expected range as determined by option prices.
+
+ In the example of a $200 stock with an IV of 25%, it would mean that there is an implied 68% probability that the stock is between $150 and $250 in one year.
+
+<h3>Why is this important?</h3>
+
+Options are insurance contracts, <b> and when the future of an asset becomes more uncertain, there is more demand for insurance on that asset</b>. 
+
+When applied to stocks, this means that a stock’s options will become more expensive as market participants become more uncertain about that stock’s performance in the future. 
+
+ <b>“IV expansion / Increase”</b>: When the uncertainty related to a stock increases 
+ -> The option prices are traded to higher prices
+
+
+ <b>“IV contraction / Decrease”</b>: Occurs when the fear and uncertainty related to a stock diminishes
+ -> The stock’s options decrease in price which results in a decrease in IV
+
+
+
+`Source: https://www.tastytrade.com/tt/learn/implied-volatility`
+
+<h2>Measurement</h2>
+
+IV measures the annualized EXPECTED standard deviation (68%) of an asset.
+
+On standard variation is 68% probabiliy of an asset selling within the expected range (prix +- IV).
+
+The period is <b> one year </b>.
+
+The key in using the information from IV is to also understand the context around it.
+
+
+<h3>Implied Volatility Rank - IVR</h3>
+
+Over a specific time range.
+
+IV Rank is a measurement from 0 to 100 that analyzes the high IV point & the low IV point over a certain time frame, and weighs current IV levels against those points.
+
+Example
+- IV low of 50% 
+- IV high of 150%
+
+Means -> 
+IV Rank 0 -> 50%
+IV Rank 50 -> 100%
+IV Rank 100 -> 150%
+
+It's about telling you where the current value is situated WITHIN the IV range.
+
+<h4>Weakness</h4>
+For a given period, it will take into account outliners.
+
+Example:
+- Most value: 10-20%
+- 1 OUtliner: 10%
+
+IV low 10%
+IV high 100%
+
+
+
+<h3>IV Percentage</h3>
+
+IV Percentile weighs each day equally
+
+IV percentile takes all the trading days for the past year, and measures the percentage of days IV was lower than the current level.
+
+This means that even if there was a spike in IV for one day, it wouldn’t change the calculation as drastically.
+
+
+Based on truth and rumors in the marketplace, option prices will begin to change. If there’s an earnings announcement or a major court decision coming up, traders will alter trading patterns on certain options. That drives the price of those options up or down, independent of stock price movement. Keep in mind, it’s not the options’ intrinsic value (if any) that is changing. Only the options’ time value is affected.
+
+
+`Source: https://www.tastytrade.com/tt/learn/measuring-implied-volatility`
+
+{% highlight ruby %}
+
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
