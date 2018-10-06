@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "OS 101"
+date:   2018-10-05 16:19:33 -0400
+categories: jekyll update
+---
+<h1>
+File Management
+</h1>
+
+Data bloacks.
+Metadata.
+File extension.
+
+<h1>
+Process Management
+</h1>
+
+A process is a program that's executing, like a browser.
+A program is an application we can run, lile chrome.
+
+There can be a many processes of the same program running at the same time.
+
+All processes are running in sequence. However, the <b>Process Manager</b> is controlling the execution order to make thing smooth.
+
+When a program wants to run, a process needs to be created for it.
+
+A  <b>Time Slice</b> is a very short interval of time that gets allocated to a process for CPU execution.
+
+The kernel creates processes, efficiently schedules them, and manages how processes are terminated
+
+
+
+<h1>
+OS Boosting Steps
+</h1>
+
+<ul>
+  <li>Power On</li>
+  <li>BIOS/UEFI: Initialize hardware to makesure everything is good to go.</li>
+  <li>BIOS/UEFI - POST: Power On Self Test. A series of diagnostic tests to make sure that the computer is in proper working order.  </li>
+  <li>Boot Device is selected. The computer is searching for the <b>Bootloader</b>, a small program that loads the operating system.</li>
+  <li>The OS is loaded</li>
+  <li>The Kernel is loaded</li>
+  <li>Drivers are loaded</li>
+  <li>Systems Processes are loaded</li>
+  <li>User Space is loaded</li>
+</ul>
