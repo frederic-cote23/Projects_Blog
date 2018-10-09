@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Networking 101"
+date:   2018-10-08 16:19:33 -0400
+categories: networking
+---
+<h1>
+Addresses
+</h1>
+
+A Mac Adress is physical addres. -> It's like the reveiver address
+An IP Address is the address on a network, like the Internet. -> It's like a sender address
+
+To connect to a server, you need both.
+
+A <b> Packets </b> is the smallest bit of data that can be sent accross the Internet. 
+Everything sent on the Internet is inside a Packets.
+
+<h1>
+Networking Gears
+</h1>
+
+Computer -> Router
+
+
+<b>Router: </b> Connects lots of different devices together and help routing traffic. It knows where to send packets WITHIN a Network. 
+Routers are like sending a mail to a buidling.
+
+A <b> Switch </b> is like the mail delivery room WITHIN a buidling.
+
+
+
+<h1>
+Networking Protocol
+</h1>
+
+These are the set of rules that allows the networking gear to move Packets around.
+
+It's HOW we transfert the data accross the network.
+
+The rols of Network Protocol:
+<ol>
+  <li>Routed Efficiently</li>
+  <li>Aren't corrupted</li>
+  <li>Secured</li>
+  <li>Right Machine</li>
+  <li>Name Appropriately</li>
+</ol>
+
+IP:  Delivers packets to the right computer.
+
+TCP: Delivers information from one network to another.
+
+DNS: It's like a directory that tracks the Domain Name and IP address form all the Internet.
+
